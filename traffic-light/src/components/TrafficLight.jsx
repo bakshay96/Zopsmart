@@ -25,7 +25,14 @@ const TrafficLight = () => {
   }, []);
 
   return (
-    <div style={{ textAlign: 'center' }}>
+    <div style={{ 
+      
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'space-between',
+
+      
+      }}>
       <h1>Traffic Signal</h1> {/* Add heading */}
       <div
         style={{
